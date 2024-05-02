@@ -6,6 +6,7 @@ const datesfns = require("date-fns");
 const { parseISO, format } = require("date-fns");
 const isValid = require("date-fns/isValid");
 
+
 const databasePath = path.join(__dirname, "todoApplication.db");
 
 const app = express();
